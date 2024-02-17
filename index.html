@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        const audioElement = document.querySelector('./i-wanna-be-yours.mp3');
+        
+        audioElement.autoplay = true;
+        audioElement.loop = true;
+        audioElement.volume = 0.5;
+        
+        // Opcional:
+        // audioElement.muted = true;
+        // audioElement.currentTime = 10;
+        // audioElement.play();
+        </script>
+
+    <audio autoplay>
+        <source src="./i-wanna-be-yours.mp3" type="audio/mpeg">
+      </audio>
+
+    <div class="music">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+</body>
+</html>
